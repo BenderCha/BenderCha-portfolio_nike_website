@@ -11,16 +11,18 @@
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/bg.jpg");
     background-size: cover;
     background-position: center;
-
 }
 .navbar
 {
     width: 85%;
-    margin: auto;
+    margin: auto 10%;
     padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1111;
 }
 .navbar .logo
 {
@@ -55,6 +57,15 @@
 {
     width: 100%;
 }
+
+.active
+{
+
+    background-color: #007cb1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .container
 {
     width: 100%;
@@ -129,4 +140,49 @@
 .button button:hover 
 {
     border: none;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+
+}
+section h1
+{
+    color: #fff;
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.8;
+    text-shadow: 5px 10px 5px rgba(0,0,0,0.5);
+}
+
+#about
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+#blog
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#gallery
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#contact
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
 }
