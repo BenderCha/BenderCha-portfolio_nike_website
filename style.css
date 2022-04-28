@@ -23,6 +23,7 @@
     position: fixed;
     top: 0;
     z-index: 1111;
+    
 }
 .navbar .logo
 {
@@ -167,6 +168,71 @@ section h1
     background-position: center;
     width: 100%;
     height: 100vh;
+
+}
+#about .content
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#about .content img
+{
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+}
+.text 
+{
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+.text h1
+{
+    color: #ffcc74;
+    font-size: 85px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.text h5
+{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.text p
+{
+    color: #c0c4d6;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+#about .content button
+{
+    background-color: #ffcc74;
+    color: black;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+#about .content button:hover
+{
+    transform: scale(1.2);
+    background-color: transparent;
+    border: 2px solid #ffcc74;
+    color: #ffcc74;
+    transition: .4s;
+    cursor: pointer;
 }
 #blog
 {
